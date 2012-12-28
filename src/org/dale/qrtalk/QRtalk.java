@@ -24,6 +24,7 @@ public class QRtalk extends Activity {
         setContentView(R.layout.activity_qrtalk);
         textView = (EditText) findViewById(R.id.decode_string);
         
+        //Click on a button to initiate
         final Button button0 = (Button) findViewById(R.id.button1);
         button0.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
