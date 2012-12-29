@@ -24,14 +24,26 @@ public class QRtalk extends Activity {
         setContentView(R.layout.activity_qrtalk);
         textView = (EditText) findViewById(R.id.decode_string);
         
-        //Click on a button to initiate
-        final Button button0 = (Button) findViewById(R.id.button1);
-        button0.setOnClickListener(new View.OnClickListener() {
+        //Click on a button to decode
+        final Button button1 = (Button) findViewById(R.id.button1);
+        button1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
             	Intent intent = new Intent("com.google.zxing.client.android.SCAN");
             	intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
             	startActivityForResult(intent, 0);
 
+            }
+        });
+        
+      //Click on a button to decode
+        final Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent("com.google.zxing.client.android.ENCODE");
+        		intent.addCategory(Intent.CATEGORY_DEFAULT);
+        		intent.putExtra("ENCODE_TYPE", "TEXT_TYPE");
+        		intent.putExtra("ENCODE_DATA","HELLO WORLD");
+        		startActivity(intent);
             }
         });
         
