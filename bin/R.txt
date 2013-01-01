@@ -32,12 +32,12 @@ int id barcode_image_view 0x7f070013
 int id bookmark_title 0x7f07000e
 int id bookmark_url 0x7f07000f
 int id button1 0x7f07000b
-int id button2 0x7f07000a
+int id button2 0x7f07000d
 int id contents_supplement_text_view 0x7f07001d
 int id contents_text_view 0x7f07001c
 int id decode 0x7f070001
 int id decode_failed 0x7f070002
-int id decode_string 0x7f07000d
+int id decode_string 0x7f07000a
 int id decode_succeeded 0x7f070003
 int id done_button 0x7f070025
 int id encode_view 0x7f070021

@@ -51,12 +51,12 @@ public final class R {
         public static final int bookmark_title=0x7f07000e;
         public static final int bookmark_url=0x7f07000f;
         public static final int button1=0x7f07000b;
-        public static final int button2=0x7f07000a;
+        public static final int button2=0x7f07000d;
         public static final int contents_supplement_text_view=0x7f07001d;
         public static final int contents_text_view=0x7f07001c;
         public static final int decode=0x7f070001;
         public static final int decode_failed=0x7f070002;
-        public static final int decode_string=0x7f07000d;
+        public static final int decode_string=0x7f07000a;
         public static final int decode_succeeded=0x7f070003;
         public static final int done_button=0x7f070025;
         public static final int encode_view=0x7f070021;
